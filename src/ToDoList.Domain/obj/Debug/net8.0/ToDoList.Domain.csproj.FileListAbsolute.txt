@@ -1,0 +1,23 @@
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Domain\bin\Debug\net8.0\ToDoList.Domain.deps.json
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Domain\bin\Debug\net8.0\ToDoList.Domain.dll
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Domain\bin\Debug\net8.0\ToDoList.Domain.pdb
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\ToDoList.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\ToDoList.Domain.AssemblyInfoInputs.cache
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\ToDoList.Domain.AssemblyInfo.cs
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\ToDoList.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\ToDoList.Domain.sourcelink.json
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\ToDoList.Domain.dll
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\refint\ToDoList.Domain.dll
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\ToDoList.Domain.pdb
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\ref\ToDoList.Domain.dll
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Domain\bin\Debug\net8.0\ToDoList.Domain.deps.json
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Domain\bin\Debug\net8.0\ToDoList.Domain.dll
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Domain\bin\Debug\net8.0\ToDoList.Domain.pdb
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\ToDoList.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\ToDoList.Domain.AssemblyInfoInputs.cache
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\ToDoList.Domain.AssemblyInfo.cs
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\ToDoList.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\ToDoList.Domain.dll
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\refint\ToDoList.Domain.dll
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\ToDoList.Domain.pdb
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\ref\ToDoList.Domain.dll

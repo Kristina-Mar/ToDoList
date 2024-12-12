@@ -1,0 +1,71 @@
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.csproj.AssemblyReference.cache
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.AssemblyInfoInputs.cache
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.AssemblyInfo.cs
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.csproj.CoreCompileInputs.cache
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.sourcelink.json
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\appsettings.json
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\ToDoList.Frontend.staticwebassets.runtime.json
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\ToDoList.Frontend.staticwebassets.endpoints.json
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\ToDoList.Frontend.exe
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\ToDoList.Frontend.deps.json
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\ToDoList.Frontend.runtimeconfig.json
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\ToDoList.Frontend.dll
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\ToDoList.Frontend.pdb
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\ToDoList.Domain.dll
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\ToDoList.Domain.pdb
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\scopedcss\bundle\ToDoList.Frontend.styles.css
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\scopedcss\projectbundle\ToDoList.Frontend.bundle.scp.css
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\staticwebassets\msbuild.ToDoList.Frontend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\staticwebassets\msbuild.ToDoList.Frontend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\staticwebassets\msbuild.build.ToDoList.Frontend.props
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ToDoList.Frontend.props
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ToDoList.Frontend.props
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.2997AFDE.Up2Date
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.dll
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\refint\ToDoList.Frontend.dll
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.pdb
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.genruntimeconfig.cache
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ref\ToDoList.Frontend.dll
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\appsettings.json
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\ToDoList.Frontend.staticwebassets.endpoints.json
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\ToDoList.Frontend.staticwebassets.runtime.json
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\ToDoList.Frontend.exe
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\ToDoList.Frontend.deps.json
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\ToDoList.Frontend.runtimeconfig.json
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\ToDoList.Frontend.dll
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\ToDoList.Frontend.pdb
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\ToDoList.Domain.dll
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\bin\Debug\net8.0\ToDoList.Domain.pdb
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.csproj.AssemblyReference.cache
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.AssemblyInfoInputs.cache
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.AssemblyInfo.cs
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.csproj.CoreCompileInputs.cache
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\scopedcss\bundle\ToDoList.Frontend.styles.css
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\scopedcss\projectbundle\ToDoList.Frontend.bundle.scp.css
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\staticwebassets\msbuild.ToDoList.Frontend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\staticwebassets\msbuild.ToDoList.Frontend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\staticwebassets\msbuild.build.ToDoList.Frontend.props
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ToDoList.Frontend.props
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ToDoList.Frontend.props
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.2997AFDE.Up2Date
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.dll
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\refint\ToDoList.Frontend.dll
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.pdb
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.genruntimeconfig.cache
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ref\ToDoList.Frontend.dll

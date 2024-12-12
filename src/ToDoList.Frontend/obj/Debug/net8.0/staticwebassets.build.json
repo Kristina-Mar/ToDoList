@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "mWksJ/tkoTTlnnwSe2t+qs7M6D6CnNEQ5dky2dgJZ20=",
+  "Source": "ToDoList.Frontend",
+  "BasePath": "_content/ToDoList.Frontend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ToDoList.Frontend\\wwwroot",
+      "Source": "ToDoList.Frontend",
+      "ContentRoot": "C:\\Users\\Kika\\Documents\\C#\\ToDoList\\src\\ToDoList.Frontend\\wwwroot\\",
+      "BasePath": "_content/ToDoList.Frontend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Kika\\Documents\\C#\\ToDoList\\src\\ToDoList.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ToDoList.Frontend.styles.css",
+      "SourceId": "ToDoList.Frontend",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Kika\\Documents\\C#\\ToDoList\\src\\ToDoList.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/ToDoList.Frontend",
+      "RelativePath": "ToDoList.Frontend#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "nzvwjs8aso",
+      "Integrity": "DbN0eEf0YAbtpryUpvvxn7+neIauO5DJu2oNpNCWWbw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Kika\\Documents\\C#\\ToDoList\\src\\ToDoList.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ToDoList.Frontend.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Kika\\Documents\\C#\\ToDoList\\src\\ToDoList.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ToDoList.Frontend.bundle.scp.css",
+      "SourceId": "ToDoList.Frontend",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Kika\\Documents\\C#\\ToDoList\\src\\ToDoList.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/ToDoList.Frontend",
+      "RelativePath": "ToDoList.Frontend#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "nzvwjs8aso",
+      "Integrity": "DbN0eEf0YAbtpryUpvvxn7+neIauO5DJu2oNpNCWWbw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Kika\\Documents\\C#\\ToDoList\\src\\ToDoList.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ToDoList.Frontend.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Kika\\Documents\\C#\\ToDoList\\src\\ToDoList.Frontend\\wwwroot\\app.css",
+      "SourceId": "ToDoList.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kika\\Documents\\C#\\ToDoList\\src\\ToDoList.Frontend\\wwwroot\\",
+      "BasePath": "_content/ToDoList.Frontend",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3jdaslpedr",
+      "Integrity": "/4LttfsCiitHavHMW1OPCn/qA//xct6hUap/MCN+mF0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.3jdaslpedr.css",
+      "AssetFile": "C:\\Users\\Kika\\Documents\\C#\\ToDoList\\src\\ToDoList.Frontend\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/4LttfsCiitHavHMW1OPCn/qA//xct6hUap/MCN+mF0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Nov 2024 19:20:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3jdaslpedr"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/4LttfsCiitHavHMW1OPCn/qA//xct6hUap/MCN+mF0="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\Kika\\Documents\\C#\\ToDoList\\src\\ToDoList.Frontend\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/4LttfsCiitHavHMW1OPCn/qA//xct6hUap/MCN+mF0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Nov 2024 19:20:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/4LttfsCiitHavHMW1OPCn/qA//xct6hUap/MCN+mF0="
+        }
+      ]
+    },
+    {
+      "Route": "ToDoList.Frontend.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Kika\\Documents\\C#\\ToDoList\\src\\ToDoList.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ToDoList.Frontend.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DbN0eEf0YAbtpryUpvvxn7+neIauO5DJu2oNpNCWWbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 17:32:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DbN0eEf0YAbtpryUpvvxn7+neIauO5DJu2oNpNCWWbw="
+        }
+      ]
+    },
+    {
+      "Route": "ToDoList.Frontend.nzvwjs8aso.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Kika\\Documents\\C#\\ToDoList\\src\\ToDoList.Frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ToDoList.Frontend.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DbN0eEf0YAbtpryUpvvxn7+neIauO5DJu2oNpNCWWbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 17:32:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nzvwjs8aso"
+        },
+        {
+          "Name": "label",
+          "Value": "ToDoList.Frontend.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DbN0eEf0YAbtpryUpvvxn7+neIauO5DJu2oNpNCWWbw="
+        }
+      ]
+    },
+    {
+      "Route": "ToDoList.Frontend.nzvwjs8aso.styles.css",
+      "AssetFile": "C:\\Users\\Kika\\Documents\\C#\\ToDoList\\src\\ToDoList.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ToDoList.Frontend.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DbN0eEf0YAbtpryUpvvxn7+neIauO5DJu2oNpNCWWbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 17:32:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nzvwjs8aso"
+        },
+        {
+          "Name": "label",
+          "Value": "ToDoList.Frontend.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DbN0eEf0YAbtpryUpvvxn7+neIauO5DJu2oNpNCWWbw="
+        }
+      ]
+    },
+    {
+      "Route": "ToDoList.Frontend.styles.css",
+      "AssetFile": "C:\\Users\\Kika\\Documents\\C#\\ToDoList\\src\\ToDoList.Frontend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ToDoList.Frontend.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DbN0eEf0YAbtpryUpvvxn7+neIauO5DJu2oNpNCWWbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Dec 2024 17:32:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DbN0eEf0YAbtpryUpvvxn7+neIauO5DJu2oNpNCWWbw="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Persistence\bin\Debug\net8.0\ToDoList.Persistence.deps.json
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Persistence\bin\Debug\net8.0\ToDoList.Persistence.runtimeconfig.json
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Persistence\bin\Debug\net8.0\ToDoList.Persistence.dll
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Persistence\bin\Debug\net8.0\ToDoList.Persistence.pdb
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Persistence\bin\Debug\net8.0\ToDoList.Domain.dll
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Persistence\bin\Debug\net8.0\ToDoList.Domain.pdb
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.csproj.AssemblyReference.cache
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.AssemblyInfoInputs.cache
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.AssemblyInfo.cs
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.sourcelink.json
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.1C02AFE7.Up2Date
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.dll
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\refint\ToDoList.Persistence.dll
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.pdb
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.genruntimeconfig.cache
+C:\Users\Kika\Documents\C# 3\CSharp3\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ref\ToDoList.Persistence.dll
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\bin\Debug\net8.0\ToDoList.Persistence.deps.json
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\bin\Debug\net8.0\ToDoList.Persistence.runtimeconfig.json
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\bin\Debug\net8.0\ToDoList.Persistence.dll
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\bin\Debug\net8.0\ToDoList.Persistence.pdb
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\bin\Debug\net8.0\ToDoList.Domain.dll
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\bin\Debug\net8.0\ToDoList.Domain.pdb
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.csproj.AssemblyReference.cache
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.AssemblyInfoInputs.cache
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.AssemblyInfo.cs
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.1C02AFE7.Up2Date
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.dll
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\refint\ToDoList.Persistence.dll
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.pdb
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.genruntimeconfig.cache
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ref\ToDoList.Persistence.dll

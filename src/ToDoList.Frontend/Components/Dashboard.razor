@@ -1,0 +1,150 @@
+﻿@using ToDoList.Frontend.Views
+@using ToDoList.Frontend.Clients
+@inject IToDoItemsClient ToDoItemsClient
+@inject NavigationManager NavigationManager
+@rendermode InteractiveServer
+
+<div class="py-3">
+    <h1>Dashboard</h1>
+</div>
+
+<table class="table table-hover py-3">
+    <thead class="table-dark">
+        <th>Id</th>
+        <th>Name</th>
+        <th>Category</th>
+        <th>Description</th>
+        <th>Completed?</th>
+        <th>Actions</th>
+    </thead>
+
+    <tbody>
+        @if (toDoItems == null)
+        {
+            <p>Loading...</p>
+        }
+
+        @if (toDoItems != null)
+        {
+            @foreach (var toDoItem in toDoItems.Where(toDoItem => CurrentFilter(toDoItem)))
+            {
+                <tr class=@SetRowClassBasedOnTaskCompletion(toDoItem)>
+                    <td>@toDoItem.ToDoItemId</td>
+                    <td>@toDoItem.Name</td>
+                    <td>@toDoItem.Category</td>
+                    <td>@toDoItem.Description</td>
+                    <td>@(toDoItem.IsCompleted ? "Yes" : "No")</td>
+                    <td>
+                        <i class=@SetIconBasedOnTaskCompletion(toDoItem) @onclick="() => ChangeTaskStatus(toDoItem)"></i>
+                        <i class="bi bi-pencil-square" @onclick="() => EditItem(toDoItem)"></i>
+                        <i class="bi bi-trash" data-bs-toggle="modal" data-bs-target="#deleteWarningModal"
+                            @onclick="() => SetItemToDelete(toDoItem)"></i>
+                    </td>
+                </tr>
+            }
+            <div class="modal fade" id="deleteWarningModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header border-0">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Delete task?</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Are you sure you want to delete task @ItemToDelete.ToDoItemId: @ItemToDelete.Name?</p>
+                        </div>
+                        <div class="modal-footer border-0">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                                @onclick="() => DeleteItem(ItemToDelete)">Yes,
+                                delete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        }
+    </tbody>
+
+</table>
+<br>
+<div class="pb-3">
+    <button class="btn btn-success" @onclick="CreateItem">Create new task</button>
+    <button class="btn btn-success" @onclick="OrderItemsById">Order by ID</button>
+    <button class="btn btn-success" @onclick="OrderItemsByName">Order by name</button>
+    <button class="btn btn-success" @onclick="ShowAll">Show All</button>
+    <button class="btn btn-success" @onclick="ShowCompleted">Show Completed</button>
+    <button class="btn btn-success" @onclick="ShowIncomplete">Show Incomplete</button>
+</div>
+
+@code
+{
+    private ToDoItemView ItemToDelete = new ToDoItemView() { Name = string.Empty, Description = string.Empty };
+
+    private void SetItemToDelete(ToDoItemView itemToDelete)
+    {
+        ItemToDelete = itemToDelete;
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        toDoItems = await ToDoItemsClient.ReadItemsAsync();
+    }
+
+    private List<ToDoItemView>? toDoItems = [];
+
+    private string SetRowClassBasedOnTaskCompletion(ToDoItemView item)
+    {
+        return item.IsCompleted ? "table-success" : "table-secondary";
+    }
+
+    private void OrderItemsById()
+    {
+        toDoItems = toDoItems?.OrderBy(i => i.ToDoItemId).ToList();
+    }
+
+    private void OrderItemsByName()
+    {
+        toDoItems = toDoItems?.OrderBy(i => i.Name).ToList();
+    }
+
+    public string SetIconBasedOnTaskCompletion(ToDoItemView item)
+    {
+        return item.IsCompleted ? "bi bi-check-circle" : "bi bi-circle";
+    }
+
+    public async Task ChangeTaskStatus(ToDoItemView item)
+    {
+        item.IsCompleted = !item.IsCompleted;
+        await ToDoItemsClient.UpdateByIdAsync(item);
+    }
+
+    public void CreateItem()
+    {
+        NavigationManager.NavigateTo("createToDoItem");
+    }
+
+    public void EditItem(ToDoItemView item)
+    {
+        NavigationManager.NavigateTo($"editToDoItem/{item.ToDoItemId}");
+    }
+
+    public async Task DeleteItem(ToDoItemView item)
+    {
+        await ToDoItemsClient.DeleteByIdAsync(item);
+        await OnInitializedAsync();
+    }
+
+    private Func<ToDoItemView, bool> CurrentFilter = (item) => true;
+    private void ShowAll()
+    {
+        CurrentFilter = item => true;
+    }
+    private void ShowCompleted()
+    {
+        CurrentFilter = item => item.IsCompleted;
+    }
+    private void ShowIncomplete()
+    {
+        CurrentFilter = item => !item.IsCompleted;
+    }
+}

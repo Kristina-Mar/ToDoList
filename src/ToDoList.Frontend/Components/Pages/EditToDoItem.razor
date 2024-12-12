@@ -1,0 +1,79 @@
+﻿@page "/editToDoItem/{ItemId:int}"
+@using ToDoList.Frontend.Views
+@using ToDoList.Frontend.Clients
+@inject IToDoItemsClient ToDoItemsClient
+@inject NavigationManager NavigationManager
+@rendermode InteractiveServer
+
+<PageTitle>Edit task</PageTitle>
+
+<div class="container mt-4">
+    @if (ToDoItem is not null)
+    {
+        <EditForm Model="ToDoItem" FormName="EditToDoItem" OnValidSubmit="Submit" class="row g-3">
+            <DataAnnotationsValidator />
+            <div class="col-md-6">
+                <label class="form-label">Name:</label>
+                <InputText id="Name" @bind-Value="ToDoItem.Name" class="form-control" />
+                <ValidationMessage For="() => ToDoItem.Name" />
+            </div>
+            <div class="col-md-6">
+                <label class="form-label">Category:</label>
+                <InputText id="Category" @bind-Value="ToDoItem.Category" class="form-control" />
+                <ValidationMessage For="() => ToDoItem.Category" />
+            </div>
+            <div class="col-md-12">
+                <label class="form-label">Description:</label>
+                <InputText id="Description" @bind-Value="ToDoItem.Description" class="form-control" />
+                <ValidationMessage For="() => ToDoItem.Description" />
+            </div>
+            <div class="col-md-12">
+                <div class="form-check">
+                    <label class="form-check-label">Is completed? </label>
+                    <InputCheckbox id="IsCompleted" @bind-Value="ToDoItem.IsCompleted" class="form-check-input" />
+                    <ValidationMessage For="() => ToDoItem.IsCompleted" />
+                </div>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-success">Submit</button>
+                <button type="button" class="btn btn-danger" @onclick="Return">Cancel</button>
+            </div>
+        </EditForm>
+    }
+</div>
+
+@code
+{
+    protected override async Task OnInitializedAsync()
+    {
+        ToDoItem = await ToDoItemsClient.ReadByIdAsync(ItemId);
+        SubmitDelegate = LogSubmit;
+    }
+
+    [Parameter]
+    public int ItemId { get; set; }
+
+    [SupplyParameterFromForm]
+    public ToDoItemView ToDoItem { get; set; }
+
+    private delegate void ToDoItemViewProcessingDelegate(ToDoItemView toDoItem);
+
+    private ToDoItemViewProcessingDelegate SubmitDelegate;
+
+    private void LogSubmit(ToDoItemView toDoItem)
+    {
+        Console.WriteLine($"Item with Id {toDoItem.ToDoItemId} was updated.");
+    }
+
+    public async Task Submit()
+    {
+        SubmitDelegate?.Invoke(ToDoItem);
+        await ToDoItemsClient.UpdateByIdAsync(ToDoItem);
+        NavigationManager.NavigateTo("/");
+    }
+
+    public void Return()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+}

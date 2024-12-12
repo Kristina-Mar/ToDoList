@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ToDoList.Frontend/app.3jdaslpedr.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3jdaslpedr"},{"Name":"integrity","Value":"sha256-/4LttfsCiitHavHMW1OPCn/qA//xct6hUap/MCN\u002BmF0="},{"Name":"label","Value":"_content/ToDoList.Frontend/app.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2221"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/4LttfsCiitHavHMW1OPCn/qA//xct6hUap/MCN\u002BmF0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 Nov 2024 19:20:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ToDoList.Frontend/app.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/4LttfsCiitHavHMW1OPCn/qA//xct6hUap/MCN\u002BmF0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2221"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/4LttfsCiitHavHMW1OPCn/qA//xct6hUap/MCN\u002BmF0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 Nov 2024 19:20:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ToDoList.Frontend/ToDoList.Frontend.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ToDoList.Frontend.nzvwjs8aso.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DbN0eEf0YAbtpryUpvvxn7\u002BneIauO5DJu2oNpNCWWbw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"508"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022DbN0eEf0YAbtpryUpvvxn7\u002BneIauO5DJu2oNpNCWWbw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Dec 2024 17:32:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ToDoList.Frontend/ToDoList.Frontend.nzvwjs8aso.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ToDoList.Frontend.nzvwjs8aso.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nzvwjs8aso"},{"Name":"integrity","Value":"sha256-DbN0eEf0YAbtpryUpvvxn7\u002BneIauO5DJu2oNpNCWWbw="},{"Name":"label","Value":"_content/ToDoList.Frontend/ToDoList.Frontend.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"508"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022DbN0eEf0YAbtpryUpvvxn7\u002BneIauO5DJu2oNpNCWWbw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 04 Dec 2024 17:32:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
