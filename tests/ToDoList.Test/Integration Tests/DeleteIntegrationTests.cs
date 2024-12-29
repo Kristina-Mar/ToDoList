@@ -22,7 +22,8 @@ public class DeleteIntegrationTests
             Name = "Delete test name",
             Category = "Delete test category",
             Description = "Delete test description",
-            IsCompleted = false
+            IsCompleted = false,
+            Deadline = new DateTime(2025, 1, 1)
         };
 
         context.Add(toDoItem);

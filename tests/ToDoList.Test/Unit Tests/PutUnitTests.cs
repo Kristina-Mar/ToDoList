@@ -18,7 +18,7 @@ public class PutUnitTests
         var repositoryMock = Substitute.For<IRepositoryAsync<ToDoItem>>();
         var controller = new ToDoItemsController(repositoryMock);
 
-        var updatedItem = new ToDoItemUpdateRequestDto("Updated name", "Updated category", "Updated description", true);
+        var updatedItem = new ToDoItemUpdateRequestDto("Updated name", "Updated category", "Updated description", true, new DateTime(2025, 2, 1));
 
         repositoryMock.UpdateByIdAsync(Arg.Any<ToDoItem>()).Returns(Task.CompletedTask);
 
@@ -37,7 +37,7 @@ public class PutUnitTests
         var repositoryMock = Substitute.For<IRepositoryAsync<ToDoItem>>();
         var controller = new ToDoItemsController(repositoryMock);
 
-        var updatedItem = new ToDoItemUpdateRequestDto("Updated name", "Updated category", "Updated description", true);
+        var updatedItem = new ToDoItemUpdateRequestDto("Updated name", "Updated category", "Updated description", true, new DateTime(2025, 2, 1));
 
         repositoryMock.UpdateByIdAsync(Arg.Any<ToDoItem>()).Throws(new KeyNotFoundException());
 
@@ -56,7 +56,7 @@ public class PutUnitTests
         var repositoryMock = Substitute.For<IRepositoryAsync<ToDoItem>>();
         var controller = new ToDoItemsController(repositoryMock);
 
-        var updatedItem = new ToDoItemUpdateRequestDto("Updated name", "Updated category", "Updated description", true);
+        var updatedItem = new ToDoItemUpdateRequestDto("Updated name", "Updated category", "Updated description", true, new DateTime(2025, 2, 1));
 
         repositoryMock.When(r => r.UpdateByIdAsync(Arg.Any<ToDoItem>())).Do(r => throw new Exception());
 

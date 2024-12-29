@@ -27,7 +27,14 @@
                 <InputText id="Description" @bind-Value="ToDoItem.Description" class="form-control" />
                 <ValidationMessage For="() => ToDoItem.Description" />
             </div>
-            <div class="col-md-12">
+            <div class="col-md-6">
+                <div class="form-label">
+                    <label class="form-check-label">Deadline:</label>
+                    <InputDate id="Deadline" @bind-Value="ToDoItem.Deadline" class="form-control" />
+                    <ValidationMessage For="() => ToDoItem.Deadline" />
+                </div>
+            </div>
+            <div class="col-md-6">
                 <div class="form-check">
                     <label class="form-check-label">Is completed? </label>
                     <InputCheckbox id="IsCompleted" @bind-Value="ToDoItem.IsCompleted" class="form-check-input" />

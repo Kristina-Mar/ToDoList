@@ -15,7 +15,7 @@ public class PostIntegrationTests
         var repository = new ToDoItemsRepository(context);
         var controller = new ToDoItemsController(repository);
 
-        var toDoItemRequest = new ToDoItemCreateRequestDto("New test item name", "New test category", "New test item description", false);
+        var toDoItemRequest = new ToDoItemCreateRequestDto("New test item name", "New test category", "New test item description", false, new DateTime(2025, 2, 1));
 
         // Act
         var result = await controller.CreateAsync(toDoItemRequest);
@@ -30,6 +30,7 @@ public class PostIntegrationTests
         Assert.Equal(toDoItemRequest.Category, newItemInDb.Category);
         Assert.Equal(toDoItemRequest.Description, newItemInDb.Description);
         Assert.Equal(toDoItemRequest.IsCompleted, newItemInDb.IsCompleted);
+        Assert.Equal(toDoItemRequest.Deadline, newItemInDb.Deadline);
 
         Assert.Equal(newItemId, resultResult.ToDoItemId);
     }

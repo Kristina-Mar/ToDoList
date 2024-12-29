@@ -13,4 +13,6 @@ public class ToDoItemView
     [StringLength(250)]
     public required string Description { get; set; }
     public bool IsCompleted { get; set; }
+    [Required(ErrorMessage = "Deadline is mandatory.")]
+    public required DateTime Deadline { get; set; }
 }

@@ -9,6 +9,7 @@ public record class ToDoItemGetResponseDto
     public string Name { get; set; }
     public string Description { get; set; }
     public bool IsCompleted { get; set; }
+    public DateTime Deadline { get; set; }
 
     public static ToDoItemGetResponseDto FromDomain(ToDoItem item) => new()
     {
@@ -16,6 +17,7 @@ public record class ToDoItemGetResponseDto
         Category = item.Category,
         Name = item.Name,
         Description = item.Description,
-        IsCompleted = item.IsCompleted
+        IsCompleted = item.IsCompleted,
+        Deadline = item.Deadline
     };
 }

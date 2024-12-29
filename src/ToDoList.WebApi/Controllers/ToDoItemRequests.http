@@ -22,13 +22,14 @@ Content-Type: application/json
   "name": "Example New Task",
   "category": "Work",
   "description": "Example New Description",
-  "isCompleted": false
+  "isCompleted": false,
+  "deadline": "2024-12-31"
 }
 
 ###
 
 //Update existing ToDoItem by id
-@itemToUpdateId = 1
+@itemToUpdateId = 111
 
 PUT {{host}}:{{port}}/api/ToDoItems/{{itemToUpdateId}}
 Content-Type: application/json
@@ -37,7 +38,8 @@ Content-Type: application/json
   "name": "Updated Task",
   "category": "Updated category",
   "description": "Updated Description",
-  "isCompleted": false
+  "isCompleted": false,
+  "deadline": "2025-01-31"
 }
 
 ###

@@ -22,7 +22,8 @@ public class GetIntegrationTests
             Name = "Get test name",
             Category = "Get test category",
             Description = "Get test description",
-            IsCompleted = false
+            IsCompleted = false,
+            Deadline = new DateTime(2025, 3, 1)
         };
         context.Add(toDoItem);
         context.SaveChanges();
@@ -42,6 +43,7 @@ public class GetIntegrationTests
         Assert.Equal(toDoItem.Category, newItem.Category);
         Assert.Equal(toDoItem.Description, newItem.Description);
         Assert.Equal(toDoItem.IsCompleted, newItem.IsCompleted);
+        Assert.Equal(toDoItem.Deadline, newItem.Deadline);
     }
 
     [Fact]
@@ -57,7 +59,8 @@ public class GetIntegrationTests
             Name = "Get test name",
             Category = "Get test category",
             Description = "Get test description",
-            IsCompleted = false
+            IsCompleted = false,
+            Deadline = new DateTime(2025, 3, 1)
         };
         context.Add(toDoItem);
         context.SaveChanges();
@@ -73,6 +76,7 @@ public class GetIntegrationTests
         Assert.Equal(toDoItem.Category, value.Category);
         Assert.Equal(toDoItem.Description, value.Description);
         Assert.Equal(toDoItem.IsCompleted, value.IsCompleted);
+        Assert.Equal(toDoItem.Deadline, value.Deadline);
     }
 
     [Fact]

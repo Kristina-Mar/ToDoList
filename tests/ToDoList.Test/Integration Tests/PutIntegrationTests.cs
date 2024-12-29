@@ -22,12 +22,13 @@ public class PutIntegrationTests
         {
             Name = "Put test name",
             Description = "Put test description",
-            IsCompleted = false
+            IsCompleted = false,
+            Deadline = new DateTime(2025, 3, 1)
         };
         context.Add(toDoItem);
         context.SaveChanges();
 
-        var updatedItem = new ToDoItemUpdateRequestDto("Updated name", "Updated category", "Updated description", true);
+        var updatedItem = new ToDoItemUpdateRequestDto("Updated name", "Updated category", "Updated description", true, new DateTime(2025, 2, 1));
 
         // Act
         var result = await controller.UpdateByIdAsync(toDoItem.ToDoItemId, updatedItem);
@@ -39,6 +40,7 @@ public class PutIntegrationTests
         Assert.Equal(updatedItem.Category, updatedItemInList.Category);
         Assert.Equal(updatedItem.Description, updatedItemInList.Description);
         Assert.Equal(updatedItem.IsCompleted, updatedItemInList.IsCompleted);
+        Assert.Equal(updatedItem.Deadline, updatedItemInList.Deadline);
 
         // FluentAssertions alternative
         updatedItemInList.Name.Should().NotBe("Put test name");
@@ -54,7 +56,7 @@ public class PutIntegrationTests
         var controller = new ToDoItemsController(repository);
 
         int invalidId = -1;
-        var updatedItem = new ToDoItemUpdateRequestDto("Updated name", "Updated category", "Updated description", true);
+        var updatedItem = new ToDoItemUpdateRequestDto("Updated name", "Updated category", "Updated description", true, new DateTime(2025, 2, 1));
 
         // Act
         var result = await controller.UpdateByIdAsync(invalidId, updatedItem);

@@ -25,7 +25,8 @@ public class GetUnitTests
             Name = "Test name",
             Category = "Work",
             Description = "Test description",
-            IsCompleted = false
+            IsCompleted = false,
+            Deadline = new DateTime(2025, 1, 1)
         };
         var toDoItem2Dto = new ToDoItemGetResponseDto
         {
@@ -33,7 +34,8 @@ public class GetUnitTests
             Name = "Test name",
             Category = null,
             Description = "Test description",
-            IsCompleted = true
+            IsCompleted = true,
+            Deadline = new DateTime(2025, 2, 1)
         };
 
         List<ToDoItemGetResponseDto> allItemsExpected = [toDoItem1Dto, toDoItem2Dto];
@@ -44,7 +46,8 @@ public class GetUnitTests
             Name = "Test name",
             Category = "Work",
             Description = "Test description",
-            IsCompleted = false
+            IsCompleted = false,
+            Deadline = new DateTime(2025, 1, 1)
         };
         var toDoItem2 = new ToDoItem
         {
@@ -52,7 +55,8 @@ public class GetUnitTests
             Name = "Test name",
             Category = null,
             Description = "Test description",
-            IsCompleted = true
+            IsCompleted = true,
+            Deadline = new DateTime(2025, 2, 1)
         };
 
         List<ToDoItem> allItemsFromRepository = [toDoItem1, toDoItem2];
@@ -121,7 +125,8 @@ public class GetUnitTests
             Name = "Test name",
             Category = "Test category",
             Description = "Test description",
-            IsCompleted = false
+            IsCompleted = false,
+            Deadline = new DateTime(2025, 1, 1)
         };
 
         var expectedReturnedItem = new ToDoItemGetResponseDto
@@ -130,7 +135,8 @@ public class GetUnitTests
             Name = "Test name",
             Category = "Test category",
             Description = "Test description",
-            IsCompleted = false
+            IsCompleted = false,
+            Deadline = new DateTime(2025, 1, 1)
         };
 
         repositoryMock.ReadByIdAsync(Arg.Any<int>()).Returns(toDoItem);
