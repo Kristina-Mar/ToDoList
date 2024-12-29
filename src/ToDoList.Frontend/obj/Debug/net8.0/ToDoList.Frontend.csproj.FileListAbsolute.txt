@@ -69,3 +69,4 @@ C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\refin
 C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.pdb
 C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.genruntimeconfig.cache
 C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ref\ToDoList.Frontend.dll
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Frontend\obj\Debug\net8.0\ToDoList.Frontend.sourcelink.json

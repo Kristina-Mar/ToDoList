@@ -21,3 +21,4 @@ C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\ToDoLis
 C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\refint\ToDoList.Domain.dll
 C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\ToDoList.Domain.pdb
 C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\ref\ToDoList.Domain.dll
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Domain\obj\Debug\net8.0\ToDoList.Domain.sourcelink.json

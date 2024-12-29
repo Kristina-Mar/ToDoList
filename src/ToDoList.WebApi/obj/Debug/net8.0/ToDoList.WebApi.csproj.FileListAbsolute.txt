@@ -147,3 +147,4 @@ C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.WebApi\obj\Debug\net8.0\refint\
 C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.WebApi\obj\Debug\net8.0\ToDoList.WebApi.pdb
 C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.WebApi\obj\Debug\net8.0\ToDoList.WebApi.genruntimeconfig.cache
 C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.WebApi\obj\Debug\net8.0\ref\ToDoList.WebApi.dll
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.WebApi\obj\Debug\net8.0\ToDoList.WebApi.sourcelink.json

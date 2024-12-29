@@ -8,7 +8,7 @@
     <h1>Dashboard</h1>
 </div>
 
-<table class="table table-hover py-3">
+<table class="table table-hover pt-3">
     <thead class="table-dark">
         <th>Id</th>
         <th>Name</th>
@@ -68,14 +68,17 @@
 
 </table>
 <br>
-<div class="pb-3">
-    <button class="btn btn-success" @onclick="CreateItem">Create new task</button>
-    <button class="btn btn-success" @onclick="OrderItemsById">Order by ID</button>
-    <button class="btn btn-success" @onclick="OrderItemsByName">Order by name</button>
-    <button class="btn btn-success" @onclick="ShowAll">Show All</button>
-    <button class="btn btn-success" @onclick="ShowCompleted">Show Completed</button>
-    <button class="btn btn-success" @onclick="ShowIncomplete">Show Incomplete</button>
-</div>
+
+<footer class="sticky-bottom bg-body-tertiary text-center text-lg-start">
+  <div class="text-center p-3">
+    <button class="btn btn-dark" @onclick="CreateItem">Create new task</button>
+    <button class="btn btn-dark" @onclick="OrderItemsById">Order by ID</button>
+    <button class="btn btn-dark" @onclick="OrderItemsByName">Order by name</button>
+    <button class="btn btn-dark" @onclick="ShowAll">Show All</button>
+    <button class="btn btn-dark" @onclick="ShowCompleted">Show Completed</button>
+    <button class="btn btn-dark" @onclick="ShowIncomplete">Show Incomplete</button>
+  </div>
+</footer>
 
 @code
 {

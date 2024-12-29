@@ -33,3 +33,4 @@ C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\re
 C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.pdb
 C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.genruntimeconfig.cache
 C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ref\ToDoList.Persistence.dll
+C:\Users\Kika\Documents\C#\ToDoList\src\ToDoList.Persistence\obj\Debug\net8.0\ToDoList.Persistence.sourcelink.json
