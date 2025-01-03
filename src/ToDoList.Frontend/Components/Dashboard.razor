@@ -35,7 +35,7 @@
                     <td>@toDoItem.Category</td>
                     <td>@toDoItem.Description</td>
                     <td>@(toDoItem.IsCompleted ? "Yes" : "No")</td>
-                    <td>@toDoItem.Deadline.Day. @toDoItem.Deadline.Month. @toDoItem.Deadline.Year</td>
+                    <td>@DisplayDateInLocalFormat(toDoItem.Deadline)</td>
                     <td>
                         <i class=@SetIconBasedOnTaskCompletion(toDoItem) @onclick="() => ChangeTaskStatus(toDoItem)"></i>
                         <i class="bi bi-pencil-square" @onclick="() => EditItem(toDoItem)"></i>
@@ -86,6 +86,11 @@
 @code
 {
     private ToDoItemView ItemToDelete = new ToDoItemView() { Name = string.Empty, Description = string.Empty, Deadline = new DateTime() };
+
+    private string DisplayDateInLocalFormat(DateTime deadline)
+    {
+        return deadline.ToString("d");
+    }
 
     private void SetItemToDelete(ToDoItemView itemToDelete)
     {
