@@ -11,7 +11,9 @@ public class PostIntegrationTests
     public async Task Post_CreateValidRequest_ReturnsCreatedAtActionAndCreatesItem()
     {
         // Arrange
-        var context = new ToDoItemsContext("Data Source=../../../../../data/localdb.db");
+        var dbPath = "Data Source=../../../../../data/localdb.db";
+        Environment.SetEnvironmentVariable("DB_CONNECTION_STRING", dbPath);
+        var context = new ToDoItemsContext();
         var repository = new ToDoItemsRepository(context);
         var controller = new ToDoItemsController(repository);
 

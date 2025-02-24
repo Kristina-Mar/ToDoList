@@ -1,0 +1,32 @@
+services:
+  
+  webapi:
+    build:
+      context: .
+      dockerfile: ./Dockerfile-webapi
+    ports:
+      - 5000:5000
+    volumes:
+      - db:/app/data
+    networks:
+      - todolistnetwork
+  
+  frontend:
+    build:
+      context: ./src
+      dockerfile: ./ToDoList.Frontend/Dockerfile
+    environment:
+      - ToDoItemApiAddress=http://webapi:5000
+    ports:
+      - 5001:5001
+    depends_on:
+      - webapi
+    networks:
+      - todolistnetwork
+
+volumes:
+  db:
+
+networks:
+  todolistnetwork:
+    driver: bridge

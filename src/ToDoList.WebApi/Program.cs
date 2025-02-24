@@ -2,8 +2,16 @@ using ToDoList.Domain.Models;
 using ToDoList.Persistence;
 using ToDoList.Persistence.Repositories;
 
+
 var builder = WebApplication.CreateBuilder(args);
 {
+    // Kestrel server configuration
+    builder.WebHost.ConfigureKestrel(options =>
+    {
+        // Listen on port 5000 for HTTP requests
+        options.ListenAnyIP(5000); // Listen on all available network interfaces on port 5000
+    });
+
     //WebApi services
     builder.Services.AddControllers();
     builder.Services.AddSwaggerGen();

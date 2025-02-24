@@ -13,7 +13,9 @@ public class DeleteIntegrationTests
     public async Task Delete_DeleteByIdValidItemId_ReturnsNoContentAndDeletesItem()
     {
         // Arrange
-        var context = new ToDoItemsContext("Data Source=../../../../../data/localdb.db");
+        var dbPath = "Data Source=../../../../../data/localdb.db";
+        Environment.SetEnvironmentVariable("DB_CONNECTION_STRING", dbPath);
+        var context = new ToDoItemsContext();
         var repository = new ToDoItemsRepository(context);
         var controller = new ToDoItemsController(repository);
 
@@ -47,7 +49,9 @@ public class DeleteIntegrationTests
     public async Task Delete_DeleteByIdInvalidItemId_ReturnsNotFound()
     {
         // Arrange
-        var context = new ToDoItemsContext("Data Source=../../../../../data/localdb.db");
+        var dbPath = "Data Source=../../../../../data/localdb.db";
+        Environment.SetEnvironmentVariable("DB_CONNECTION_STRING", dbPath);
+        var context = new ToDoItemsContext();
         var repository = new ToDoItemsRepository(context);
         var controller = new ToDoItemsController(repository);
         var invalidId = -1;

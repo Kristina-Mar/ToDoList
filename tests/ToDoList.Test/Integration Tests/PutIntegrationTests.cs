@@ -14,7 +14,9 @@ public class PutIntegrationTests
     public async Task Put_UpdateByIdWhenItemUpdated_ReturnsNoContentAndUpdatesItem()
     {
         // Arrange
-        var context = new ToDoItemsContext("Data Source=../../../../../data/localdb.db");
+        var dbPath = "Data Source=../../../../../data/localdb.db";
+        Environment.SetEnvironmentVariable("DB_CONNECTION_STRING", dbPath);
+        var context = new ToDoItemsContext();
         var repository = new ToDoItemsRepository(context);
         var controller = new ToDoItemsController(repository);
 
@@ -51,7 +53,9 @@ public class PutIntegrationTests
     public async Task Put_UpdateByIdWhenIdNotFound_ReturnsNotFound()
     {
         // Arrange
-        var context = new ToDoItemsContext("Data Source=../../../../../data/localdb.db");
+        var dbPath = "Data Source=../../../../../data/localdb.db";
+        Environment.SetEnvironmentVariable("DB_CONNECTION_STRING", dbPath);
+        var context = new ToDoItemsContext();
         var repository = new ToDoItemsRepository(context);
         var controller = new ToDoItemsController(repository);
 

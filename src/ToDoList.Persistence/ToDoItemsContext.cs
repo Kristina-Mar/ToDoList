@@ -6,9 +6,9 @@ using ToDoList.Domain.Models;
 public class ToDoItemsContext : DbContext
 {
     private readonly string connectionString;
-    public ToDoItemsContext(string connectionString = "Data Source=../../data/localdb.db")
+    public ToDoItemsContext()
     {
-        this.connectionString = connectionString;
+        connectionString = Environment.GetEnvironmentVariable("DB_CONNECTION_STRING") ?? "Data Source=../../data/localdb.db";
         this.Database.Migrate();
     }
 

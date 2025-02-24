@@ -1,0 +1,46 @@
+ARG BUILD_CONFIGURATION=Release
+
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+
+ENV ASPNETCORE_URLS=http://+:5000
+EXPOSE 5000
+
+WORKDIR /src
+
+COPY ["./src/ToDoList.WebApi","ToDoList.WebApi/"]
+COPY ["./src/ToDoList.Domain","ToDoList.Domain/"]
+COPY ["./src/ToDoList.Persistence","ToDoList.Persistence/"]
+COPY ["../data","data/"]
+
+# restores nuget packages
+RUN dotnet restore "./ToDoList.WebApi/ToDoList.WebApi.csproj"
+RUN dotnet restore "./ToDoList.Domain/ToDoList.Domain.csproj"
+RUN dotnet restore "./ToDoList.Persistence/ToDoList.Persistence.csproj"
+
+# -c setting build to release or development, -o where we want to save the build
+RUN dotnet build "./ToDoList.WebApi/ToDoList.WebApi.csproj" -c "$BUILD_CONFIGURATION" -o /app/build
+RUN dotnet build "./ToDoList.Domain/ToDoList.Domain.csproj" -c "$BUILD_CONFIGURATION" -o /app/build
+RUN dotnet build "./ToDoList.Persistence/ToDoList.Persistence.csproj" -c "$BUILD_CONFIGURATION" -o /app/build
+
+# -r specifies the run-time version we want to use
+RUN dotnet publish "./ToDoList.WebApi/ToDoList.WebApi.csproj" -c "$BUILD_CONFIGURATION" -o /app/publish -r linux-x64 --self-contained false
+RUN dotnet publish "./ToDoList.Domain/ToDoList.Domain.csproj" -c "$BUILD_CONFIGURATION" -o /app/publish -r linux-x64 --self-contained false
+RUN dotnet publish "./ToDoList.Persistence/ToDoList.Persistence.csproj" -c "$BUILD_CONFIGURATION" -o /app/publish -r linux-x64 --self-contained false
+
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS run
+
+WORKDIR /app
+COPY --from=build /app/publish .
+COPY --from=build /src/data ./data
+
+# Install SQLite dependencies
+RUN apt-get update \
+    && apt-get install -y sqlite3 libsqlite3-0 libsqlite3-dev \
+    && rm -rf /var/lib/apt/lists/*
+    
+# Ensure SQLite can find its native libraries
+ENV LD_LIBRARY_PATH="/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH}"
+
+ENV DB_CONNECTION_STRING="Data Source=/app/data/localdb.db"
+
+ENTRYPOINT ["dotnet","ToDoList.WebApi.dll"]

@@ -13,7 +13,9 @@ public class GetIntegrationTests
     public async Task Get_ReadWhenSomeItemAvailable_ReturnsOkAndAllItems()
     {
         // Arrange
-        var context = new ToDoItemsContext("Data Source=../../../../../data/localdb.db");
+        var dbPath = "Data Source=../../../../../data/localdb.db";
+        Environment.SetEnvironmentVariable("DB_CONNECTION_STRING", dbPath);
+        var context = new ToDoItemsContext();
         var repository = new ToDoItemsRepository(context);
         var controller = new ToDoItemsController(repository);
 
@@ -50,7 +52,9 @@ public class GetIntegrationTests
     public async Task Get_ReadByIdWhenSomeItemAvailable_ReturnsOkAndItem()
     {
         // Arrange
-        var context = new ToDoItemsContext("Data Source=../../../../../data/localdb.db");
+        var dbPath = "Data Source=../../../../../data/localdb.db";
+        Environment.SetEnvironmentVariable("DB_CONNECTION_STRING", dbPath);
+        var context = new ToDoItemsContext();
         var repository = new ToDoItemsRepository(context);
         var controller = new ToDoItemsController(repository);
 
@@ -83,7 +87,9 @@ public class GetIntegrationTests
     public async Task Get_ReadByIdWhenItemIsNull_ReturnsNotFound()
     {
         // Arrange
-        var context = new ToDoItemsContext("Data Source=../../../../../data/localdb.db");
+        var dbPath = "Data Source=../../../../../data/localdb.db";
+        Environment.SetEnvironmentVariable("DB_CONNECTION_STRING", dbPath);
+        var context = new ToDoItemsContext();
         var repository = new ToDoItemsRepository(context);
         var controller = new ToDoItemsController(repository);
         int invalidId = -1;
